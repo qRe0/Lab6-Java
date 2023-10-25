@@ -38,10 +38,10 @@ public class Main {
         bureau.createConstructionTeam(team1);
         bureau.createConstructionTeam(team2);
 
-//        bureau.saveToFile("construction_data.ser");
+        bureau.saveToFile("construction_data.ser");
 
-//        // Чтение данных из файла
-//        bureau.loadFromFile("construction_data.ser");
+        // Чтение данных из файла
+        bureau.loadFromFile("construction_data.ser");
 
         for (TechnicalTask task : bureau.getTechnicalTasks()) {
             System.out.println(task);
