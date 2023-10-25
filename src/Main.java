@@ -6,7 +6,7 @@ import java.util.ResourceBundle;
 public class Main {
     public static void main(String[] args) {
         if (args.length < 2) {
-            System.out.println("Usage: java Main <language> <country>");
+            System.out.println("Usage: java Main <language country>");
             System.exit(1);
         }
         String language = args[0];
